@@ -126,6 +126,7 @@ font-family: 'Roboto Slab', serif;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
     margin-top: 130px;
 }
 .foto {
