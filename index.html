@@ -189,5 +189,16 @@
         propuestas.classList.toggle("abierto")
         active = true;
 })
+    let circuloMain = document.querySelector(".imagenMain")
+    circuloMain.addEventListener("click", ()=>{
+        circuloMain.classList.toggle("MainImageActive")
+    })
+    let fotoImagen = document.querySelectorAll(".circulo")
+    fotoImagen.forEach((elemts)=> {
+        elemts.addEventListener("click",()=>{
+            elemts.classList.toggle("circuloActive")
+        })
+    })    
+
 </script>
 </html>
